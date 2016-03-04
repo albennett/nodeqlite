@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "serve": "nodemon app.js",
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +20,11 @@
   },
   "homepage": "https://github.com/albennett/nodeqlite#readme",
   "dependencies": {
+    "express": "^4.13.4",
+    "moment": "^2.11.2",
     "sqlite3": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.0"
   }
 }
